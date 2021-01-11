@@ -1,0 +1,146 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+	font-family:Georgia;
+	background-color:#EEEEEE;
+}
+
+h1 h2 h3 h4 h5 h6{
+	font-family:Georgia;
+	font-weight:bold;
+}
+h1{
+	font-size:25px;
+	padding:3px;
+}
+h1.centered{
+	text-align:center;
+}
+h2{
+	font-size:20px;
+	padding:3px;
+}
+h2.centered{
+	text-align:center;
+}
+h3{
+	font-size:16px;
+	padding:3px;
+}
+h3.centered{
+	text-align:center;
+}
+h4{
+	font-size:14px;
+	padding:3px;
+}
+h4.centered{
+	text-align:center;
+}
+h5{
+	font-size:13px;
+	padding:3px;
+}
+h5.centered{
+	text-align:center;
+}
+h6{
+	font-size:12px;
+	padding:3px;
+}
+h6.centered{
+	text-align:center;
+}
+p{
+	font-size:13px;
+	padding:2px;
+	padding-bottom:3px;
+}
+hr{
+	clear: both; 
+	float: none; 
+	width: 100%; 
+	height: 1px;
+	margin: 1.4em 0;
+	border: none; 
+	background: #ddd;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0, rgb(255,255,255)),
+    color-stop(0.1, rgb(221,221,221)),
+    color-stop(0.9, rgb(221,221,221)),
+    color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+br{
+	height:10px;
+	width:100%;
+}
+#content{
+	width:1000px;
+	min-height:100%;
+	overflow:hidden;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top:0px;
+	margin-top:0px;
+	background-color:#FFFFFF;
+	box-shadow: 2px 2px 19px #aaa;
+    -o-box-shadow: 2px 2px 19px #aaa;
+    -webkit-box-shadow: 2px 2px 19px #aaa;
+    -moz-box-shadow: 2px 2px 19px #aaa;
+}
+#logo{
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:2px;
+}
+.container{
+	width:98%;
+	padding-right:1%;
+	padding-left:1%;
+	padding-top:5px;
+}
+.half-container{
+	width:48%;
+	float:left;
+	padding-left:1%;
+	padding-right:1%;
+}
+.centered{
+text-align:center;
+}
+#navigation ul {
+display:inline;
+}
+#navigation ul li{
+display:inline;
+padding-left:2px;
+padding-right:2px;
+}
+#navigation ul li a{
+text-decoration:none;
+color:#000000;
+border:1px solid grey;
+padding:5px;
+}
+#navigation ul li a:hover{
+background-color:grey;
+color:#ffffff;
+}
+#navigation ul li a:visited{
+color:#000000;
+}
+#bottom-image{
+margin-top:150px;
+}
