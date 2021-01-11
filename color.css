@@ -1,0 +1,34 @@
+body { background-color: #E6E6FA;
+	  font-family: Verdana;
+}
+h1 { text-align: center;
+	 background-color: #191970;
+	 color: #E6E6FA;
+}
+h2 {background-color: #AEAED4;
+	color: #191970;
+}
+h5 {
+	color: #191970;
+}
+.nav { font-weight: bold;
+	  font-size: 1.25em;
+	  color: #FFFFFF;
+}
+
+p {
+	color: #191970;
+}
+
+table.center {
+margin-left: auto;
+margin-right: auto;
+}
+
+table,th,td {
+	border:1px solid black;
+	text-align: center;
+} 
+
+/* S.Blair for Paul Long, NGTC; 12-13-2012, 01-20-2015, 12-08-2015 */ 
+/* color.css stylesheet for CIST 1510 passes the W3C CSS Validation Service: 01-20-2015, 12-08-2015 */
